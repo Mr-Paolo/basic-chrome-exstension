@@ -1,0 +1,27 @@
+{
+    "name": "Basic Chrom Exstension",
+    "version": "1.1",
+    "description": "",
+    "permissions": ["activeTab","declarativeContent", "storage"],
+    "background": {
+      "scripts": ["index.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "browser_style": "true",
+      "default_popup": "popup/index.html",
+      "default_icon": {
+        "16": "popup/icons/get_started16.png",
+        "32": "popup/icons/get_started32.png",
+        "48": "popup/icons/get_started48.png",
+        "128": "popup/icons/get_started128.png"
+      }
+    },
+    "icons": {
+      "16": "popup/icons/get_started16.png",
+      "32": "popup/icons/get_started32.png",
+      "48": "popup/icons/get_started48.png",
+      "128": "popup/icons/get_started128.png"
+    },
+    "manifest_version": 2
+}
